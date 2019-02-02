@@ -3,7 +3,7 @@
 ## Getting started
 
 To get started, after cloning the repo, run the following command in the repo directory:
-```
+```Bash
 npm start
 ```
 
