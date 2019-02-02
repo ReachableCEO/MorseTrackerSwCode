@@ -1,0 +1,11 @@
+{
+    "name": "subo-openmct",
+    "version": "0.0.1",
+    "description": "Suborbital's implementation of Open MCT",
+    "dependencies": {
+        "express": "^4.16.4",
+        "express-ws": "^4.0.0",
+        "openmct": "nasa/openmct",
+        "ws": "^6.1.2"
+      }
+}
