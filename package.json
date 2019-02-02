@@ -2,10 +2,19 @@
     "name": "subo-openmct",
     "version": "0.0.1",
     "description": "Suborbital's implementation of Open MCT",
+    "main": "server/server.js",
+    "scripts": {
+      "start": "node server/server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://git.turnsys.com/Suborbital-Systems/OpenMCT.git"
+      },
+    
     "dependencies": {
         "express": "^4.16.4",
         "express-ws": "^4.0.0",
         "openmct": "nasa/openmct",
         "ws": "^6.1.2"
-      }
+    }
 }
